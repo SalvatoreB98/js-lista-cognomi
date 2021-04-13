@@ -7,12 +7,11 @@
 della lista in cui il nuovo utente si trova */
 
 var cognomeUtente = prompt("Inserisci il tuo cognome");
-var arrayCognomi = ["Neri", "Bianco", "Rossi", "Fumagalli", "Gialli", "Gallo"];
+var arrayCognomi = ["Azzurri","Neri", "Bianco", "Rossi", "Fumagalli", "Gialli", "Gallo","Zinco"];
 var listaOrdinataCognomi = [];
+var minAlfabetico;
 // Inserisce cognomeUtente nell array
 arrayCognomi.push(cognomeUtente);
-
-for (var i = 0;i<arrayCognomi.length){
-    
-}   
+arrayCognomi.sort(); //Ordina l'array
+console.log(arrayCognomi);
 
